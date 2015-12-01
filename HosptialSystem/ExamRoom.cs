@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    public class Class1
+    class ExamRoom: Room
     {
+        Dictionary<DateTime, MedicalProfessinal> reserveProfecinalTime;
+        Dictionary<DateTime, Patient> reservePatientTime;
     }
 }

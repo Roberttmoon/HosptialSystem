@@ -1,19 +1,15 @@
-﻿using System;
+﻿using HosptialSystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hosptial
+namespace HosptialSystem
 {
-    public class Patient
+    public class Patient: Person
     {
         //patent information
-        string patientID;
-        string patientLastName;
-        string patientFirstName;
-        string patientBirthDate;
-        string patientPhoneNumber;
         string patientPrimaryDoctor;
 
 
@@ -30,7 +26,7 @@ namespace Hosptial
 
         //insurance details
         bool hasInsurance;
-        string insuranceCompanyName;
+        string insuranceCompanyName; 
         string memberID;
         string groupID;
         string insuranceExpirationDate;
