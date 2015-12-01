@@ -10,6 +10,5 @@ namespace HosptialSystem
     {
         // takes in med. prof, room and patent
         DateTime apointmentTime;
-
     }
 }
