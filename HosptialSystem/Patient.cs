@@ -10,7 +10,7 @@ namespace HosptialSystem
     public class Patient: Person
     {
         //patent information
-        string patientPrimaryDoctor;
+        public string patientPrimaryDoctor;
 
 
         //patient history
@@ -18,18 +18,19 @@ namespace HosptialSystem
         List<string> patientAllergys;
         List<string> patientPastSurgerys;
 
+
         //appointment details
-        DateTime patientApointmentDateTime;
-        string patientApointmentRoom;
-        string patientApointmentDoctor;
-        List<string> patientCurrentSymptoms;
+        public DateTime patientApointmentDateTime;
+        public string patientApointmentRoom;
+        public string patientApointmentDoctor;
+        public List<string> patientCurrentSymptoms;
 
         //insurance details
-        bool hasInsurance;
-        string insuranceCompanyName; 
-        string memberID;
-        string groupID;
-        string insuranceExpirationDate;
+        public bool hasInsurance;
+        public string insuranceCompanyName;
+        public string memberID;
+        public string groupID;
+        public string insuranceExpirationDate;
 
     }
 }

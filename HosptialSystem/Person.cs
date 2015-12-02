@@ -9,13 +9,13 @@ namespace HosptialSystem
 {
     public class Person
     {
-        string personID;
-        string personFirstName;
-        string personLastName;
-        string personAddress;
-        string personPhoneNumber;
-        string dateOfBirth;
-        List<DateTime> personAppointment;
+        public string personID;
+        public string personFirstName;
+        public string personLastName;
+        public string personAddress;
+        public string personPhoneNumber;
+        public string personDateOfBirth;
+        public List<DateTime> personAppointment;
 
 
     }
