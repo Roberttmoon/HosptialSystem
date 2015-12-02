@@ -15,8 +15,8 @@ namespace HosptialSystem
 
         //patient history
        // List<List<patientCurrentSymptoms>> patientPastSymptoms;
-        List<string> patentAllergys;
-        List<string> patentPastSurgerys;
+        List<string> patientAllergys;
+        List<string> patientPastSurgerys;
 
         //appointment details
         DateTime patientApointmentDateTime;
