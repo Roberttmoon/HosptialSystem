@@ -14,7 +14,7 @@ namespace HosptialSystem
 
 
         //patient history
-        List<List<patientCurrentSymptoms>> patientPastSymptoms;
+       // List<List<patientCurrentSymptoms>> patientPastSymptoms;
         List<string> patentAllergys;
         List<string> patentPastSurgerys;
 
