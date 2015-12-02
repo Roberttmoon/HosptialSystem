@@ -9,7 +9,9 @@ namespace HosptialSystem
     class Appointment
     {
         // takes in med. prof, room and patent
-        DateTime apointmentTime;
+        Dictionary<int, bool> vacantRoom= new Dictionary<int, bool>();
+        DateTime appointmentTime;
 
+       
     }
 }

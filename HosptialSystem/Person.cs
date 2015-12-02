@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    class Person
+    public class Person
     {
         string personID;
         string personFirstName;
