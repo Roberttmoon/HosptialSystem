@@ -102,6 +102,7 @@
   <ItemGroup>
     <Compile Include="Administrator.cs" />
     <Compile Include="Appointment.cs" />
+    <Compile Include="AddDoctor.cs" />
     <Compile Include="Doctor.cs" />
     <Compile Include="ExamRoom.cs" />
     <Compile Include="FrontDesk.cs" />

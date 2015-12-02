@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    class Doctor: MedicalProfessinal
+    public class Doctor: MedicalProfessinal
     {
-        List<Patient> doctorsPatients;
+        public List<Patient> doctorsPatients;
     }
 }

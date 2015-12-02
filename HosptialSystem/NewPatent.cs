@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace HosptialSystem
 {
-    class NewPatent
+    class NewPatient
     {
         public Patient assignPatientID()
         {

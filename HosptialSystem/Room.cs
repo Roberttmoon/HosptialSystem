@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    class Room
+    public class Room
     {
 
         List<Person> occupants;

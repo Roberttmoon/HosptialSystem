@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    class MedicalProfessinal: Person
+    public class MedicalProfessinal: Person
     {
-        int yearsOfExperence;
+        public int yearsOfExperence;
         Dictionary<DateTime, Room> roomOccupiedWhen;
     }
 }
