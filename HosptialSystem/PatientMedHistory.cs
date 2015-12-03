@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HosptialSystem
 {
-    class InputOutput
+    public class PatientMedHistory
     {
 
     }
