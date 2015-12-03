@@ -10,7 +10,7 @@ using System.Reflection;
 
 namespace HosptialSystem
 {
-    class NewPatient
+    public class NewPatient
     {
         public Patient assignPatientID()
         {

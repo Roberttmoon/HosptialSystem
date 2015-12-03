@@ -9,8 +9,5 @@ namespace HosptialSystem
     class InputOutput
     {
 
-
-
-
     }
 }
