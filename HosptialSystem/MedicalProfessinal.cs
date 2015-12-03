@@ -9,6 +9,6 @@ namespace HosptialSystem
     public class MedicalProfessinal: Person
     {
         public int yearsOfExperence;
-        Dictionary<DateTime, Room> roomOccupiedWhen;
+        
     }
 }

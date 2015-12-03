@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using System.Reflection;
 
 namespace HosptialSystem
 {
@@ -16,10 +17,20 @@ namespace HosptialSystem
 
             Patient patient = new Patient();
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\Users\\Robert Moon\\Documents\\Class\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
+            doc.Load("C:\\Users\\Fenix Down\\Documents\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
             int personID = doc.SelectNodes("root/person").Count;
 
             return patient;
+        }
+        public static string AssemblyDirectory
+        {
+            get
+            {
+                string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                UriBuilder uri = new UriBuilder(codeBase);
+                string path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
         }
         public void assignPatientName(Patient patient)
         {
@@ -37,6 +48,10 @@ namespace HosptialSystem
         public void assignPatientBirthDate(Patient patient)
         {
             patient.personDateOfBirth = "enter dob";
+        }
+        public List<string> sendDataToLogic (List<string> incomingData)
+        {
+            return incomingData;
         }
     }
 

@@ -103,23 +103,80 @@
     <Compile Include="Administrator.cs" />
     <Compile Include="Appointment.cs" />
     <Compile Include="AddDoctor.cs" />
+    <Compile Include="Insurance.cs" />
     <Compile Include="Doctor.cs" />
-    <Compile Include="ExamRoom.cs" />
     <Compile Include="FrontDesk.cs" />
+    <Compile Include="InputOutput.cs" />
     <Compile Include="MedicalProfessinal.cs" />
+    <Compile Include="NewPatient.cs" />
     <Compile Include="Nurse.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Room.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="bin\Debug\client_secret.json" />
+    <None Include="bin\Debug\HosptialSystem.dll.config" />
     <None Include="client_secret.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HosptialSystem.csproj.App.config" />
+    <None Include="obj\Debug\HosptialSystem.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Google.Apis.Auth.dll" />
+    <Content Include="bin\Debug\Google.Apis.Auth.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Auth.PlatformServices.dll" />
+    <Content Include="bin\Debug\Google.Apis.Auth.PlatformServices.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Auth.PlatformServices.xml" />
+    <Content Include="bin\Debug\Google.Apis.Auth.xml" />
+    <Content Include="bin\Debug\Google.Apis.Calendar.v3.dll" />
+    <Content Include="bin\Debug\Google.Apis.Calendar.v3.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Calendar.v3.xml" />
+    <Content Include="bin\Debug\Google.Apis.Core.dll" />
+    <Content Include="bin\Debug\Google.Apis.Core.pdb" />
+    <Content Include="bin\Debug\Google.Apis.Core.xml" />
+    <Content Include="bin\Debug\Google.Apis.dll" />
+    <Content Include="bin\Debug\Google.Apis.pdb" />
+    <Content Include="bin\Debug\Google.Apis.PlatformServices.dll" />
+    <Content Include="bin\Debug\Google.Apis.PlatformServices.pdb" />
+    <Content Include="bin\Debug\Google.Apis.PlatformServices.xml" />
+    <Content Include="bin\Debug\Google.Apis.xml" />
+    <Content Include="bin\Debug\HosptialSystem.dll" />
+    <Content Include="bin\Debug\HosptialSystem.pdb" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\log4net.xml" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.dll" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.Extensions.dll" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.Extensions.xml" />
+    <Content Include="bin\Debug\Microsoft.Threading.Tasks.xml" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\System.Net.Http.Extensions.dll" />
+    <Content Include="bin\Debug\System.Net.Http.Extensions.xml" />
+    <Content Include="bin\Debug\System.Net.Http.Primitives.dll" />
+    <Content Include="bin\Debug\System.Net.Http.Primitives.xml" />
+    <Content Include="bin\Debug\Zlib.Portable.dll" />
+    <Content Include="bin\Debug\Zlib.Portable.xml" />
+    <Content Include="obj\Debug\HosptialSystem.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HosptialSystem.dll" />
+    <Content Include="obj\Debug\HosptialSystem.pdb" />
+    <Content Include="PeopleDatabase.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

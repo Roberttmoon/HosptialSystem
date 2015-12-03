@@ -14,9 +14,9 @@ namespace HosptialSystem
 
 
         //patient history
-       // List<List<patientCurrentSymptoms>> patientPastSymptoms;
-        List<string> patientAllergys;
-        List<string> patientPastSurgerys;
+        //List<List<patientCurrentSymptoms>> patientPastSymptoms;
+        List<string> patientAllergies;
+        List<string> patientPastSurgeries;
 
 
         //appointment details
@@ -31,6 +31,7 @@ namespace HosptialSystem
         public string memberID;
         public string groupID;
         public string insuranceExpirationDate;
+
 
     }
 }
