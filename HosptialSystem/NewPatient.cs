@@ -10,14 +10,14 @@ using System.Reflection;
 
 namespace HosptialSystem
 {
-    class NewPatient
+    public class NewPatient
     {
         public Patient assignPatientID()
         {
 
             Patient patient = new Patient();
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\Users\\Fenix Down\\Documents\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
+            doc.Load("C:\\Users\\Robert Moon\\Documents\\Class\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
             int personID = doc.SelectNodes("root/person").Count;
 
             return patient;
@@ -32,18 +32,18 @@ namespace HosptialSystem
                 return Path.GetDirectoryName(path);
             }
         }
-        public void assignPatientName(Patient patient)
+        public void assignPatientName(Patient patient, string dataFirstName, string dataLastName)
         {
-            patient.personFirstName = "enter name";
-            patient.personLastName = "enter name";
+            patient.personFirstName = dataFirstName;
+            patient.personLastName = dataLastName;
         }
         public void assignPatientAddress(Patient patient)
         {
             patient.personAddress = "enter address";
         }
-        public void assignPatientPhonenumber(Patient patient)
+        public void assignPatientPhonenumber(Patient patient, string dataPhoneNumber)
         {
-            patient.personPhoneNumber = "enter phonenumber";
+            patient.personPhoneNumber = dataPhoneNumber;
         }
         public void assignPatientBirthDate(Patient patient)
         {
