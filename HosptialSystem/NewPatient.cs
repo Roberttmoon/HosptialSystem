@@ -37,13 +37,13 @@ namespace HosptialSystem
             patient.personFirstName = dataFirstName;
             patient.personLastName = dataLastName;
         }
-        public void assignPatientAddress(Patient patient, string address, string address2) /*,string city, string state, string zip*/
+        public void assignPatientAddress(Patient patient, string address, string address2 ,string city, string state, string zip)
         {
             patient.personAddress = address;
             patient.personAddress2 = address2;
-            /*patient.personCity = city;
+            patient.personCity = city;
             patient.personState = state;
-            patient.personZip = zip;*/
+            patient.personZip = zip;
         }
         public void assignPatientPhonenumber(Patient patient, string dataPhoneNumber)
         {
