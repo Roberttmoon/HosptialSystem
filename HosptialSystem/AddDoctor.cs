@@ -48,7 +48,7 @@ namespace HosptialSystem
         }
         public void assignPatientBirthDate(Doctor doctor)
         {
-            doctor.personDateOfBirth = "Enter your Date of Birth (MM/DD): ";
+            doctor.personAge = "Enter your Date of Birth (MM/DD): ";
         }
     }
 }

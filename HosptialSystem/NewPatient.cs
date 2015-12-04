@@ -37,7 +37,7 @@ namespace HosptialSystem
             patient.personFirstName = dataFirstName;
             patient.personLastName = dataLastName;
         }
-        public void assignPatientAddress(Patient patient, string address, string address2 /*,string city, string state, string zip*/)
+        public void assignPatientAddress(Patient patient, string address, string address2) /*,string city, string state, string zip*/
         {
             patient.personAddress = address;
             patient.personAddress2 = address2;
@@ -49,9 +49,9 @@ namespace HosptialSystem
         {
             patient.personPhoneNumber = dataPhoneNumber;
         }
-        public void assignPatientBirthDate(Patient patient)
+        public void assignPatientAge(Patient patient, string age)
         {
-            patient.personDateOfBirth = "enter dob";
+            patient.personAge = age;
         }
         public List<string> sendDataToLogic (List<string> incomingData)
         {

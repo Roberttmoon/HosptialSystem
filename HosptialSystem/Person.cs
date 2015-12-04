@@ -18,7 +18,7 @@ namespace HosptialSystem
         public string personState;
         public string personZip;
         public string personPhoneNumber;
-        public string personDateOfBirth;
+        public string personAge;
         public List<DateTime> personAppointment;
 
 
