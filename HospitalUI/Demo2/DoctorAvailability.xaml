@@ -1,0 +1,36 @@
+﻿<Page x:Class="Demo2.DoctorAvailability"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Demo2"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="DoctorAvailability">
+    <Page.Resources>
+
+        <local:DoctorList x:Key="doctorCollection" >
+            <local:Doctor DoctorName="Syed Abbas" IsAvailable="false" />
+            <local:Doctor DoctorName="Lori Kane" IsAvailable="true" />
+            <local:Doctor DoctorName="Steve Masters" IsAvailable="false" />
+            <local:Doctor DoctorName="Tai Yee" IsAvailable="true" />
+            <local:Doctor DoctorName="Brenda Diaz" IsAvailable="true" />
+        </local:DoctorList>
+
+        <local:BoolToBrushConverter x:Key="boolToBrushConverter" />
+
+        <DataTemplate x:Key="listBoxTemplate">
+            <StackPanel Orientation="Horizontal" >
+                <Rectangle Fill="{Binding Path=IsEnrolled, Converter={StaticResource boolToBrushConverter}}"
+                           Height="10" 
+                           Width="10" 
+                           Margin="0,0,5,0" />
+                <TextBlock Text="{Binding Path=DoctorName}" />
+            </StackPanel>
+        </DataTemplate>
+
+    </Page.Resources>
+    <Grid>
+        
+    </Grid>
+</Page>

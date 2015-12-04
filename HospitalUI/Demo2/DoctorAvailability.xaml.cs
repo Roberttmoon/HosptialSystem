@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HospitalUI
+namespace Demo2
 {
     /// <summary>
-    /// Interaction logic for Hospital_Home.xaml
+    /// Interaction logic for DoctorAvailability.xaml
     /// </summary>
-    public partial class Hospital_Home : Page
+    public partial class DoctorAvailability : Page
     {
-        public Hospital_Home()
+        public DoctorAvailability()
         {
             InitializeComponent();
         }

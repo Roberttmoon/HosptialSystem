@@ -11,11 +11,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CalendarQuickstart
+namespace HosptialSystem
 {
     class Program
     {
-        static string[] Scopes = { CalendarService.Scope.CalendarReadonly };
+        static string[] Scopes = { CalendarService.Scope.Calendar };
         static string ApplicationName = "Google Calendar API .NET Quickstart";
 
         static void Main(string[] args)

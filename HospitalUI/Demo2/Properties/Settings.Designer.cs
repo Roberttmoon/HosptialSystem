@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HospitalUI.Properties
+namespace Demo2.Properties
 {
 
 
