@@ -13,6 +13,10 @@ namespace HosptialSystem
         public string personFirstName;
         public string personLastName;
         public string personAddress;
+        public string personAddress2;
+        public string personCity;
+        public string personState;
+        public string personZip;
         public string personPhoneNumber;
         public string personDateOfBirth;
         public List<DateTime> personAppointment;

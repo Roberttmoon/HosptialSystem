@@ -17,7 +17,7 @@ namespace HosptialSystem
 
             Patient patient = new Patient();
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\Users\\Robert Moon\\Documents\\Class\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
+            doc.Load("C:\\Users\\nanne\\Documents\\GitHub\\HosptialSystem\\HosptialSystem\\PeopleDatabase.xml");
             int personID = doc.SelectNodes("root/person").Count;
 
             return patient;
@@ -37,17 +37,21 @@ namespace HosptialSystem
             patient.personFirstName = dataFirstName;
             patient.personLastName = dataLastName;
         }
-        public void assignPatientAddress(Patient patient)
+        public void assignPatientAddress(Patient patient, string address, string address2 ,string city, string state, string zip)
         {
-            patient.personAddress = "enter address";
+            patient.personAddress = address;
+            patient.personAddress2 = address2;
+            patient.personCity = city;
+            patient.personState = state;
+            patient.personZip = zip;
         }
         public void assignPatientPhonenumber(Patient patient, string dataPhoneNumber)
         {
             patient.personPhoneNumber = dataPhoneNumber;
         }
-        public void assignPatientBirthDate(Patient patient)
+        public void assignPatientAge(Patient patient, string age)
         {
-            patient.personDateOfBirth = "enter dob";
+            patient.personAge = age;
         }
         public List<string> sendDataToLogic (List<string> incomingData)
         {
