@@ -40,7 +40,7 @@ namespace HosptialSystem
         }
         public void assignDoctorAddress(Doctor doctor)
         {
-            doctor.personAddress = "Enter Address: ";
+            doctor.personStreetAddress1 = "Enter Address: ";
         }
         public void assignDoctorPhoneNumber(Doctor doctor)
         {

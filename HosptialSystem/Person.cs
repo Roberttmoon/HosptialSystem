@@ -12,8 +12,8 @@ namespace HosptialSystem
         public string personID;
         public string personFirstName;
         public string personLastName;
-        public string personAddress;
-        public string personAddress2;
+        public string personStreetAddress1;
+        public string personStreetAddress2;
         public string personCity;
         public string personState;
         public string personZip;
