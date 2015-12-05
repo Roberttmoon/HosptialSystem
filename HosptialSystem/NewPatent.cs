@@ -29,9 +29,13 @@ namespace HosptialSystem
             patient.personFirstName = dataFirstName;
             patient.personLastName = dataLastName;
         }
-        public void assignPatientAddress(Patient patient)
+        public void assignPatientAddress(Patient patient, string street1, string street2, string city, string zip, string state )
         {
-            patient.personAddress = "enter address";
+            patient.personStreetAddress1 = street1;
+            patient.personStreetAddress2 = street2;
+            patient.personCity = city;
+            patient.personZip = zip;
+            patient.personState = state;
         }
         public void assignPatientPhonenumber(Patient patient, string dataPhoneNumber)
         {
@@ -40,6 +44,13 @@ namespace HosptialSystem
         public void assignPatientBirthDate(Patient patient, string dataBirthDate)
         {
             patient.personDateOfBirth = dataBirthDate;
+        }
+        public void assignPatientInsuranceInfo(Patient patient, string company, string memberID, string groupID, string expDate)
+        {
+            patient.insuranceCompanyName = company;
+            patient.memberID = memberID;
+            patient.groupID = groupID;
+            patient.insuranceExpirationDate = expDate;
         }
         public void addNewPatientToDatabase(Patient patient)
         {
